@@ -1,0 +1,890 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F538B7702A0F84C90050A587 /* atm_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F538B76F2A0F84C90050A587 /* atm_iOSApp.swift */; };
+		F538B7742A0F84CA0050A587 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F538B7732A0F84CA0050A587 /* Assets.xcassets */; };
+		F538B7772A0F84CA0050A587 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F538B7762A0F84CA0050A587 /* Preview Assets.xcassets */; };
+		F538B7792A0F84CA0050A587 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F538B7782A0F84CA0050A587 /* Persistence.swift */; };
+		F538B77C2A0F84CA0050A587 /* atm_iOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F538B77A2A0F84CA0050A587 /* atm_iOS.xcdatamodeld */; };
+		F538B7872A0F84CB0050A587 /* atm_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F538B7862A0F84CB0050A587 /* atm_iOSTests.swift */; };
+		F538B7912A0F84CB0050A587 /* atm_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F538B7902A0F84CB0050A587 /* atm_iOSUITests.swift */; };
+		F538B7932A0F84CB0050A587 /* atm_iOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F538B7922A0F84CB0050A587 /* atm_iOSUITestsLaunchTests.swift */; };
+		F538B7C52A0F85AC0050A587 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = F538B7C42A0F85AC0050A587 /* Alamofire */; };
+		F538B7DF2A0F97880050A587 /* VerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F538B7DE2A0F97880050A587 /* VerView.swift */; };
+		F538B7E02A0F97880050A587 /* VerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F538B7DE2A0F97880050A587 /* VerView.swift */; };
+		F538B7E12A0F97880050A587 /* VerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F538B7DE2A0F97880050A587 /* VerView.swift */; };
+		F538B7E72A0F97F50050A587 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F538B7E62A0F97F50050A587 /* DashboardView.swift */; };
+		F538B7E82A0F97F50050A587 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F538B7E62A0F97F50050A587 /* DashboardView.swift */; };
+		F538B7E92A0F97F50050A587 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F538B7E62A0F97F50050A587 /* DashboardView.swift */; };
+		F538B7EB2A0F982F0050A587 /* VerificationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F538B7EA2A0F982F0050A587 /* VerificationViewModel.swift */; };
+		F538B7EC2A0F982F0050A587 /* VerificationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F538B7EA2A0F982F0050A587 /* VerificationViewModel.swift */; };
+		F538B7ED2A0F982F0050A587 /* VerificationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F538B7EA2A0F982F0050A587 /* VerificationViewModel.swift */; };
+		F538B7EF2A0F998F0050A587 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F538B7EE2A0F998F0050A587 /* DashboardViewModel.swift */; };
+		F538B7F02A0F998F0050A587 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F538B7EE2A0F998F0050A587 /* DashboardViewModel.swift */; };
+		F538B7F12A0F998F0050A587 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F538B7EE2A0F998F0050A587 /* DashboardViewModel.swift */; };
+		F538B7F92A0FA3150050A587 /* BalanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F538B7F82A0FA3150050A587 /* BalanceView.swift */; };
+		F538B7FA2A0FA3150050A587 /* BalanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F538B7F82A0FA3150050A587 /* BalanceView.swift */; };
+		F538B7FB2A0FA3150050A587 /* BalanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F538B7F82A0FA3150050A587 /* BalanceView.swift */; };
+		F538B7FD2A0FA3A30050A587 /* BalanceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F538B7FC2A0FA3A30050A587 /* BalanceViewModel.swift */; };
+		F538B7FE2A0FA3A30050A587 /* BalanceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F538B7FC2A0FA3A30050A587 /* BalanceViewModel.swift */; };
+		F538B7FF2A0FA3A30050A587 /* BalanceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F538B7FC2A0FA3A30050A587 /* BalanceViewModel.swift */; };
+		F538B8012A0FA5310050A587 /* BalancePopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F538B8002A0FA5310050A587 /* BalancePopUpView.swift */; };
+		F538B8022A0FA5310050A587 /* BalancePopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F538B8002A0FA5310050A587 /* BalancePopUpView.swift */; };
+		F538B8032A0FA5310050A587 /* BalancePopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F538B8002A0FA5310050A587 /* BalancePopUpView.swift */; };
+		F538B8052A0FA66C0050A587 /* BackdropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F538B8042A0FA66C0050A587 /* BackdropView.swift */; };
+		F538B8062A0FA66C0050A587 /* BackdropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F538B8042A0FA66C0050A587 /* BackdropView.swift */; };
+		F538B8072A0FA66C0050A587 /* BackdropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F538B8042A0FA66C0050A587 /* BackdropView.swift */; };
+		F538B8092A0FA80F0050A587 /* ViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F538B8082A0FA80F0050A587 /* ViewType.swift */; };
+		F538B80A2A0FA80F0050A587 /* ViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F538B8082A0FA80F0050A587 /* ViewType.swift */; };
+		F538B80B2A0FA80F0050A587 /* ViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F538B8082A0FA80F0050A587 /* ViewType.swift */; };
+		F538B80D2A0FAB1E0050A587 /* WithdrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F538B80C2A0FAB1E0050A587 /* WithdrawView.swift */; };
+		F538B80E2A0FAB1E0050A587 /* WithdrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F538B80C2A0FAB1E0050A587 /* WithdrawView.swift */; };
+		F538B80F2A0FAB1E0050A587 /* WithdrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F538B80C2A0FAB1E0050A587 /* WithdrawView.swift */; };
+		F538B8112A0FB0D70050A587 /* WithdrawViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F538B8102A0FB0D70050A587 /* WithdrawViewModel.swift */; };
+		F538B8122A0FB0D70050A587 /* WithdrawViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F538B8102A0FB0D70050A587 /* WithdrawViewModel.swift */; };
+		F538B8132A0FB0D70050A587 /* WithdrawViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F538B8102A0FB0D70050A587 /* WithdrawViewModel.swift */; };
+		F538B8152A0FBD9A0050A587 /* MessageR.swift in Sources */ = {isa = PBXBuildFile; fileRef = F538B8142A0FBD9A0050A587 /* MessageR.swift */; };
+		F538B8162A0FBD9A0050A587 /* MessageR.swift in Sources */ = {isa = PBXBuildFile; fileRef = F538B8142A0FBD9A0050A587 /* MessageR.swift */; };
+		F538B8172A0FBD9A0050A587 /* MessageR.swift in Sources */ = {isa = PBXBuildFile; fileRef = F538B8142A0FBD9A0050A587 /* MessageR.swift */; };
+		F538B8232A1003B90050A587 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F538B8212A1003B90050A587 /* APIClient.swift */; };
+		F538B8242A1003B90050A587 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F538B8212A1003B90050A587 /* APIClient.swift */; };
+		F538B8252A1003B90050A587 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F538B8212A1003B90050A587 /* APIClient.swift */; };
+		F538B8262A1003B90050A587 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = F538B8222A1003B90050A587 /* Card.swift */; };
+		F538B8272A1003B90050A587 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = F538B8222A1003B90050A587 /* Card.swift */; };
+		F538B8282A1003B90050A587 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = F538B8222A1003B90050A587 /* Card.swift */; };
+		F538B8332A100CCE0050A587 /* CurrentCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F538B8322A100CCE0050A587 /* CurrentCard.swift */; };
+		F538B8352A100D060050A587 /* LogInModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F538B8342A100D060050A587 /* LogInModel.swift */; };
+		F538B8372A100D4E0050A587 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F538B8362A100D4E0050A587 /* LoginView.swift */; };
+		F538B8392A100D6C0050A587 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F538B8382A100D6C0050A587 /* LoginViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F538B7832A0F84CB0050A587 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F538B7642A0F84C90050A587 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F538B76B2A0F84C90050A587;
+			remoteInfo = atm_iOS;
+		};
+		F538B78D2A0F84CB0050A587 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F538B7642A0F84C90050A587 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F538B76B2A0F84C90050A587;
+			remoteInfo = atm_iOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F538B76C2A0F84C90050A587 /* atm_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = atm_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F538B76F2A0F84C90050A587 /* atm_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = atm_iOSApp.swift; sourceTree = "<group>"; };
+		F538B7732A0F84CA0050A587 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F538B7762A0F84CA0050A587 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F538B7782A0F84CA0050A587 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		F538B77B2A0F84CA0050A587 /* atm_iOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = atm_iOS.xcdatamodel; sourceTree = "<group>"; };
+		F538B77D2A0F84CA0050A587 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F538B7822A0F84CB0050A587 /* atm_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = atm_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F538B7862A0F84CB0050A587 /* atm_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = atm_iOSTests.swift; sourceTree = "<group>"; };
+		F538B78C2A0F84CB0050A587 /* atm_iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = atm_iOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F538B7902A0F84CB0050A587 /* atm_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = atm_iOSUITests.swift; sourceTree = "<group>"; };
+		F538B7922A0F84CB0050A587 /* atm_iOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = atm_iOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F538B7DE2A0F97880050A587 /* VerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerView.swift; sourceTree = "<group>"; };
+		F538B7E62A0F97F50050A587 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		F538B7EA2A0F982F0050A587 /* VerificationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationViewModel.swift; sourceTree = "<group>"; };
+		F538B7EE2A0F998F0050A587 /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		F538B7F82A0FA3150050A587 /* BalanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceView.swift; sourceTree = "<group>"; };
+		F538B7FC2A0FA3A30050A587 /* BalanceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceViewModel.swift; sourceTree = "<group>"; };
+		F538B8002A0FA5310050A587 /* BalancePopUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalancePopUpView.swift; sourceTree = "<group>"; };
+		F538B8042A0FA66C0050A587 /* BackdropView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackdropView.swift; sourceTree = "<group>"; };
+		F538B8082A0FA80F0050A587 /* ViewType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewType.swift; sourceTree = "<group>"; };
+		F538B80C2A0FAB1E0050A587 /* WithdrawView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithdrawView.swift; sourceTree = "<group>"; };
+		F538B8102A0FB0D70050A587 /* WithdrawViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithdrawViewModel.swift; sourceTree = "<group>"; };
+		F538B8142A0FBD9A0050A587 /* MessageR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MessageR.swift; path = atm_iOS/API/MessageR.swift; sourceTree = SOURCE_ROOT; };
+		F538B8212A1003B90050A587 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		F538B8222A1003B90050A587 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		F538B8322A100CCE0050A587 /* CurrentCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentCard.swift; sourceTree = "<group>"; };
+		F538B8342A100D060050A587 /* LogInModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInModel.swift; sourceTree = "<group>"; };
+		F538B8362A100D4E0050A587 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		F538B8382A100D6C0050A587 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F538B7692A0F84C90050A587 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F538B7C52A0F85AC0050A587 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F538B77F2A0F84CB0050A587 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F538B7892A0F84CB0050A587 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F538B7632A0F84C90050A587 = {
+			isa = PBXGroup;
+			children = (
+				F538B76E2A0F84C90050A587 /* atm_iOS */,
+				F538B7852A0F84CB0050A587 /* atm_iOSTests */,
+				F538B78F2A0F84CB0050A587 /* atm_iOSUITests */,
+				F538B76D2A0F84C90050A587 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F538B76D2A0F84C90050A587 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F538B76C2A0F84C90050A587 /* atm_iOS.app */,
+				F538B7822A0F84CB0050A587 /* atm_iOSTests.xctest */,
+				F538B78C2A0F84CB0050A587 /* atm_iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F538B76E2A0F84C90050A587 /* atm_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F538B82B2A1004710050A587 /* Login */,
+				F538B8292A1004000050A587 /* CurrentC */,
+				F538B8182A1002F50050A587 /* API */,
+				F538B7F32A0FA2510050A587 /* Withdraw */,
+				F538B7F22A0FA23D0050A587 /* Balance */,
+				F538B7E22A0F97B10050A587 /* Dashboard */,
+				F538B76F2A0F84C90050A587 /* atm_iOSApp.swift */,
+				F538B7732A0F84CA0050A587 /* Assets.xcassets */,
+				F538B7782A0F84CA0050A587 /* Persistence.swift */,
+				F538B77D2A0F84CA0050A587 /* Info.plist */,
+				F538B77A2A0F84CA0050A587 /* atm_iOS.xcdatamodeld */,
+				F538B7752A0F84CA0050A587 /* Preview Content */,
+				F538B7DE2A0F97880050A587 /* VerView.swift */,
+				F538B7EA2A0F982F0050A587 /* VerificationViewModel.swift */,
+			);
+			path = atm_iOS;
+			sourceTree = "<group>";
+		};
+		F538B7752A0F84CA0050A587 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F538B7762A0F84CA0050A587 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F538B7852A0F84CB0050A587 /* atm_iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				F538B7862A0F84CB0050A587 /* atm_iOSTests.swift */,
+			);
+			path = atm_iOSTests;
+			sourceTree = "<group>";
+		};
+		F538B78F2A0F84CB0050A587 /* atm_iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F538B7902A0F84CB0050A587 /* atm_iOSUITests.swift */,
+				F538B7922A0F84CB0050A587 /* atm_iOSUITestsLaunchTests.swift */,
+			);
+			path = atm_iOSUITests;
+			sourceTree = "<group>";
+		};
+		F538B7E22A0F97B10050A587 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				F538B7E52A0F97DB0050A587 /* View */,
+				F538B7E42A0F97D30050A587 /* ViewModel */,
+				F538B7E32A0F97BC0050A587 /* Model */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		F538B7E32A0F97BC0050A587 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F538B8082A0FA80F0050A587 /* ViewType.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F538B7E42A0F97D30050A587 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F538B7EE2A0F998F0050A587 /* DashboardViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F538B7E52A0F97DB0050A587 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F538B7E62A0F97F50050A587 /* DashboardView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F538B7F22A0FA23D0050A587 /* Balance */ = {
+			isa = PBXGroup;
+			children = (
+				F538B7F52A0FA28A0050A587 /* ViewModel */,
+				F538B7F42A0FA27B0050A587 /* View */,
+			);
+			path = Balance;
+			sourceTree = "<group>";
+		};
+		F538B7F32A0FA2510050A587 /* Withdraw */ = {
+			isa = PBXGroup;
+			children = (
+				F538B7F72A0FA3010050A587 /* ViewModel */,
+				F538B7F62A0FA2FA0050A587 /* View */,
+			);
+			path = Withdraw;
+			sourceTree = "<group>";
+		};
+		F538B7F42A0FA27B0050A587 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F538B7F82A0FA3150050A587 /* BalanceView.swift */,
+				F538B8002A0FA5310050A587 /* BalancePopUpView.swift */,
+				F538B8042A0FA66C0050A587 /* BackdropView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F538B7F52A0FA28A0050A587 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F538B7FC2A0FA3A30050A587 /* BalanceViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F538B7F62A0FA2FA0050A587 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F538B80C2A0FAB1E0050A587 /* WithdrawView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F538B7F72A0FA3010050A587 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F538B8102A0FB0D70050A587 /* WithdrawViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F538B8182A1002F50050A587 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				F538B8212A1003B90050A587 /* APIClient.swift */,
+				F538B8222A1003B90050A587 /* Card.swift */,
+				F538B8142A0FBD9A0050A587 /* MessageR.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		F538B8292A1004000050A587 /* CurrentC */ = {
+			isa = PBXGroup;
+			children = (
+				F538B8322A100CCE0050A587 /* CurrentCard.swift */,
+			);
+			path = CurrentC;
+			sourceTree = "<group>";
+		};
+		F538B82B2A1004710050A587 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				F538B82E2A10049D0050A587 /* Model */,
+				F538B82D2A1004920050A587 /* View */,
+				F538B82C2A1004870050A587 /* ViewModel */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		F538B82C2A1004870050A587 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F538B8382A100D6C0050A587 /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F538B82D2A1004920050A587 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F538B8362A100D4E0050A587 /* LoginView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F538B82E2A10049D0050A587 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F538B8342A100D060050A587 /* LogInModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F538B76B2A0F84C90050A587 /* atm_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F538B7962A0F84CB0050A587 /* Build configuration list for PBXNativeTarget "atm_iOS" */;
+			buildPhases = (
+				F538B7682A0F84C90050A587 /* Sources */,
+				F538B7692A0F84C90050A587 /* Frameworks */,
+				F538B76A2A0F84C90050A587 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = atm_iOS;
+			packageProductDependencies = (
+				F538B7C42A0F85AC0050A587 /* Alamofire */,
+			);
+			productName = atm_iOS;
+			productReference = F538B76C2A0F84C90050A587 /* atm_iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F538B7812A0F84CB0050A587 /* atm_iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F538B7992A0F84CB0050A587 /* Build configuration list for PBXNativeTarget "atm_iOSTests" */;
+			buildPhases = (
+				F538B77E2A0F84CB0050A587 /* Sources */,
+				F538B77F2A0F84CB0050A587 /* Frameworks */,
+				F538B7802A0F84CB0050A587 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F538B7842A0F84CB0050A587 /* PBXTargetDependency */,
+			);
+			name = atm_iOSTests;
+			productName = atm_iOSTests;
+			productReference = F538B7822A0F84CB0050A587 /* atm_iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F538B78B2A0F84CB0050A587 /* atm_iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F538B79C2A0F84CB0050A587 /* Build configuration list for PBXNativeTarget "atm_iOSUITests" */;
+			buildPhases = (
+				F538B7882A0F84CB0050A587 /* Sources */,
+				F538B7892A0F84CB0050A587 /* Frameworks */,
+				F538B78A2A0F84CB0050A587 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F538B78E2A0F84CB0050A587 /* PBXTargetDependency */,
+			);
+			name = atm_iOSUITests;
+			productName = atm_iOSUITests;
+			productReference = F538B78C2A0F84CB0050A587 /* atm_iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F538B7642A0F84C90050A587 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					F538B76B2A0F84C90050A587 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					F538B7812A0F84CB0050A587 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = F538B76B2A0F84C90050A587;
+					};
+					F538B78B2A0F84CB0050A587 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = F538B76B2A0F84C90050A587;
+					};
+				};
+			};
+			buildConfigurationList = F538B7672A0F84C90050A587 /* Build configuration list for PBXProject "atm_iOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F538B7632A0F84C90050A587;
+			packageReferences = (
+				F538B7C32A0F85AC0050A587 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = F538B76D2A0F84C90050A587 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F538B76B2A0F84C90050A587 /* atm_iOS */,
+				F538B7812A0F84CB0050A587 /* atm_iOSTests */,
+				F538B78B2A0F84CB0050A587 /* atm_iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F538B76A2A0F84C90050A587 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F538B7772A0F84CA0050A587 /* Preview Assets.xcassets in Resources */,
+				F538B7742A0F84CA0050A587 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F538B7802A0F84CB0050A587 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F538B78A2A0F84CB0050A587 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F538B7682A0F84C90050A587 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F538B8152A0FBD9A0050A587 /* MessageR.swift in Sources */,
+				F538B7DF2A0F97880050A587 /* VerView.swift in Sources */,
+				F538B7E72A0F97F50050A587 /* DashboardView.swift in Sources */,
+				F538B8352A100D060050A587 /* LogInModel.swift in Sources */,
+				F538B77C2A0F84CA0050A587 /* atm_iOS.xcdatamodeld in Sources */,
+				F538B7FD2A0FA3A30050A587 /* BalanceViewModel.swift in Sources */,
+				F538B8272A1003B90050A587 /* Card.swift in Sources */,
+				F538B8112A0FB0D70050A587 /* WithdrawViewModel.swift in Sources */,
+				F538B8332A100CCE0050A587 /* CurrentCard.swift in Sources */,
+				F538B80D2A0FAB1E0050A587 /* WithdrawView.swift in Sources */,
+				F538B7792A0F84CA0050A587 /* Persistence.swift in Sources */,
+				F538B7F92A0FA3150050A587 /* BalanceView.swift in Sources */,
+				F538B8052A0FA66C0050A587 /* BackdropView.swift in Sources */,
+				F538B8092A0FA80F0050A587 /* ViewType.swift in Sources */,
+				F538B7EB2A0F982F0050A587 /* VerificationViewModel.swift in Sources */,
+				F538B8012A0FA5310050A587 /* BalancePopUpView.swift in Sources */,
+				F538B7702A0F84C90050A587 /* atm_iOSApp.swift in Sources */,
+				F538B8242A1003B90050A587 /* APIClient.swift in Sources */,
+				F538B8372A100D4E0050A587 /* LoginView.swift in Sources */,
+				F538B7EF2A0F998F0050A587 /* DashboardViewModel.swift in Sources */,
+				F538B8392A100D6C0050A587 /* LoginViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F538B77E2A0F84CB0050A587 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F538B8122A0FB0D70050A587 /* WithdrawViewModel.swift in Sources */,
+				F538B7E02A0F97880050A587 /* VerView.swift in Sources */,
+				F538B7872A0F84CB0050A587 /* atm_iOSTests.swift in Sources */,
+				F538B7EC2A0F982F0050A587 /* VerificationViewModel.swift in Sources */,
+				F538B7F02A0F998F0050A587 /* DashboardViewModel.swift in Sources */,
+				F538B8252A1003B90050A587 /* APIClient.swift in Sources */,
+				F538B80A2A0FA80F0050A587 /* ViewType.swift in Sources */,
+				F538B7E82A0F97F50050A587 /* DashboardView.swift in Sources */,
+				F538B8062A0FA66C0050A587 /* BackdropView.swift in Sources */,
+				F538B7FE2A0FA3A30050A587 /* BalanceViewModel.swift in Sources */,
+				F538B8022A0FA5310050A587 /* BalancePopUpView.swift in Sources */,
+				F538B7FA2A0FA3150050A587 /* BalanceView.swift in Sources */,
+				F538B80E2A0FAB1E0050A587 /* WithdrawView.swift in Sources */,
+				F538B8162A0FBD9A0050A587 /* MessageR.swift in Sources */,
+				F538B8282A1003B90050A587 /* Card.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F538B7882A0F84CB0050A587 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F538B80F2A0FAB1E0050A587 /* WithdrawView.swift in Sources */,
+				F538B7E12A0F97880050A587 /* VerView.swift in Sources */,
+				F538B7F12A0F998F0050A587 /* DashboardViewModel.swift in Sources */,
+				F538B8232A1003B90050A587 /* APIClient.swift in Sources */,
+				F538B7912A0F84CB0050A587 /* atm_iOSUITests.swift in Sources */,
+				F538B8172A0FBD9A0050A587 /* MessageR.swift in Sources */,
+				F538B7ED2A0F982F0050A587 /* VerificationViewModel.swift in Sources */,
+				F538B8132A0FB0D70050A587 /* WithdrawViewModel.swift in Sources */,
+				F538B8032A0FA5310050A587 /* BalancePopUpView.swift in Sources */,
+				F538B7FF2A0FA3A30050A587 /* BalanceViewModel.swift in Sources */,
+				F538B7E92A0F97F50050A587 /* DashboardView.swift in Sources */,
+				F538B7932A0F84CB0050A587 /* atm_iOSUITestsLaunchTests.swift in Sources */,
+				F538B8262A1003B90050A587 /* Card.swift in Sources */,
+				F538B8072A0FA66C0050A587 /* BackdropView.swift in Sources */,
+				F538B7FB2A0FA3150050A587 /* BalanceView.swift in Sources */,
+				F538B80B2A0FA80F0050A587 /* ViewType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F538B7842A0F84CB0050A587 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F538B76B2A0F84C90050A587 /* atm_iOS */;
+			targetProxy = F538B7832A0F84CB0050A587 /* PBXContainerItemProxy */;
+		};
+		F538B78E2A0F84CB0050A587 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F538B76B2A0F84C90050A587 /* atm_iOS */;
+			targetProxy = F538B78D2A0F84CB0050A587 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F538B7942A0F84CB0050A587 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F538B7952A0F84CB0050A587 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F538B7972A0F84CB0050A587 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"atm_iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 69529J6YS7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "senilaconstantin.atm-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F538B7982A0F84CB0050A587 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"atm_iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 69529J6YS7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "senilaconstantin.atm-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F538B79A2A0F84CB0050A587 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 69529J6YS7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "senilaconstantin.atm-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/atm_iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/atm_iOS";
+			};
+			name = Debug;
+		};
+		F538B79B2A0F84CB0050A587 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 69529J6YS7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "senilaconstantin.atm-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/atm_iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/atm_iOS";
+			};
+			name = Release;
+		};
+		F538B79D2A0F84CB0050A587 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 69529J6YS7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "senilaconstantin.atm-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = atm_iOS;
+			};
+			name = Debug;
+		};
+		F538B79E2A0F84CB0050A587 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 69529J6YS7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "senilaconstantin.atm-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = atm_iOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F538B7672A0F84C90050A587 /* Build configuration list for PBXProject "atm_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F538B7942A0F84CB0050A587 /* Debug */,
+				F538B7952A0F84CB0050A587 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F538B7962A0F84CB0050A587 /* Build configuration list for PBXNativeTarget "atm_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F538B7972A0F84CB0050A587 /* Debug */,
+				F538B7982A0F84CB0050A587 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F538B7992A0F84CB0050A587 /* Build configuration list for PBXNativeTarget "atm_iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F538B79A2A0F84CB0050A587 /* Debug */,
+				F538B79B2A0F84CB0050A587 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F538B79C2A0F84CB0050A587 /* Build configuration list for PBXNativeTarget "atm_iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F538B79D2A0F84CB0050A587 /* Debug */,
+				F538B79E2A0F84CB0050A587 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F538B7C32A0F85AC0050A587 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F538B7C42A0F85AC0050A587 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F538B7C32A0F85AC0050A587 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		F538B77A2A0F84CA0050A587 /* atm_iOS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F538B77B2A0F84CA0050A587 /* atm_iOS.xcdatamodel */,
+			);
+			currentVersion = F538B77B2A0F84CA0050A587 /* atm_iOS.xcdatamodel */;
+			path = atm_iOS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F538B7642A0F84C90050A587 /* Project object */;
+}
